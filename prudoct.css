@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+    
+}
+a:active{
+    color:rgb(206, 176, 42);
+}
+
+.nav{
+    background-color: rgba(46, 35, 7,0.8); 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 10px 0px;
+
+    }
+
+.nav  ul{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    position: absolute;
+    right: 240px;
+   
+   
+
+}
+section{
+   margin: 100px ;
+ 
+}
+section h3{
+    position: absolute;
+    left:310px
+}
+.nav li{
+    padding: 20px;
+}
+.nav  a{
+    text-decoration: none;
+    color: white;
+}
+.nav h1{
+    color: white;
+    margin-left: 230px;
+   
+    font-size: 40px;
+}
+.nav h1 i{
+    color:rgb(206, 176, 42);
+    font-size: 15px;
+position: absolute;
+top:9px;
+left: 348px;
+}
+
+
+section .cantaner{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    
+    
+
+}
+section .cantaner div{
+    width: 30%;
+    height: 30%;
+    
+    margin-top: 50px;
+}
+section .cantaner div img{
+    width: 100%;
+    
+
+}
+.cantaner-footer{
+    text-align: center;
+ 
+}
+.cantaner-footer .nav-div{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+   
+    margin:auto;
+    margin-left: 8%;
+    
+}
+.cantaner-footer .nav-div p{
+    font-size: 8px;
+}
+
+.cantaner-footer .nav-div  ul{
+    list-style: none;
+    padding: 20px 0px;
+    display: flex;
+    float: left;
+    margin-top: 80px;
+    
+
+}
+.cantaner-footer .nav-div  ul li a{
+    font-size: 12px;
+    padding-left: 30px; 
+ 
+}
+
+.cantaner-footer .nav-div .text{
+    margin-top: 100px;
+}
+.cantaner-footer .nav-div .text h3{
+    padding-right:30px ;
+}
+.cantaner-footer .nav-div .text a{
+    font-size: 8px;
+}
+.cantaner-footer  .div-final{
+    display: flex;
+   
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    position: relative;
+    padding-bottom: 100px;
+}
+.cantaner-footer  .div-final .right{
+    position: absolute;
+    right: -10px;
+    bottom: 80px;
+
+}
+.cantaner-footer  .div-final .right i{
+    color:rgb(206, 176, 42);
+    font-size: 15px;
+    position: absolute;
+
+}
+
+
+
+

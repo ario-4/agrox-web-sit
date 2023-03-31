@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+}
+.nav{
+    background-color: rgba(25, 25, 25, 0.4); 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    height: 60px;
+
+    }
+
+.nav  ul{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    position: absolute;
+    right: 240px;
+   
+
+}
+.nav li{
+    padding: 20px;
+}
+.nav  a{
+    text-decoration: none;
+    color: white;
+}
+.nav h1{
+    color: white;
+    margin-left: 230px;
+   
+    font-size: 40px;
+}
+.nav h1 i{
+    color:rgb(206, 176, 42);
+    font-size: 15px;
+position: absolute;
+top:9px;
+left: 348px;
+}
+
+.contaner2{
+    background-image: url(qqq1.jpg);
+    width: 100%;
+    height: 600px;
+}
+.contaner2 .hh1{
+    color: yellow;
+    position: absolute;
+    top: 240PX;
+    left: 240px;
+}
+.contaner2 .h1{
+    color: white;
+    position:absolute;
+    top:270px;
+    left:240px;
+
+}
+
+
+.contaner2 .image-box{
+    
+    position: absolute;
+    right: 15%;
+    top:500px;
+    display: flex;
+}
+.contaner2 .image-box img{
+    border-radius: 50%;
+    width:80px;
+    padding: 5px;
+
+}
+.contaner3{
+    background-color: rgb(206, 176, 42);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.contaner3 .item-box{
+    width: 75%;
+    display:flex;
+    
+    justify-content: space-between;
+    
+}
+.contaner3 .item-box h1{
+    color: white;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.contaner3 .item-box .item1{
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+   
+    
+   
+
+}
+.contaner3 .item-box .item1 p{
+    margin-top: 40pxpx;
+    font-size: 13px;
+    margin-bottom:10px;
+    margin-top: 17px;
+}
+.contaner3 .item-box .item2 ,.item3{
+    width: 28%;
+    
+}
+.contaner3 .item-box  img{
+    float: left;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px ;
+
+}
+.contaner3 .item-box .item2 p{
+    padding-top: 10px;
+    font-size: 10px;
+    margin-left: 60px;
+}
+.contaner3 .item-box  h3{
+    padding-top: 30px;
+    margin-left: 60px;
+}
+.contaner3 .item-box   #child2, #child3{
+    border-bottom:1px solid white;
+    padding-bottom: 30px;
+}
+.contaner3 .item-box .item3 p{
+    padding-top: 10px;
+    font-size: 10px;
+    margin-left: 60px;
+}
+.p-final{
+    position: absolute;
+    top:832px;
+    right:230px;
+    font-size: 10px;
+    color: white;
+}
+section .contaner-section{
+    width: 80%;
+display: flex;
+flex-wrap: wrap;
+ 
+  margin: auto;
+  justify-content: space-between;
+}
+section .contaner-section .div1{
+    width: 85%;
+    
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+}
+section .contaner-section .div1 p{
+    padding-top: 45px;
+    padding: 20px 195px ; 
+}
+section .contaner-section .div2{
+    width: 17%;
+    margin-top: 50px;
+    
+
+}
+section .contaner-section .div2 p{
+    padding: 10px;
+    font-size: 10px;
+}
+section .contaner-section .div2 a{
+margin-left: 10px;
+}
+section .contaner-section .div3{
+    width: 30%;
+   
+    margin-top: 45px;
+
+}
+section .contaner-section .div3 img{
+    width: 150px;
+    float: left;
+}
+section .contaner-section .div3 p {
+    margin-left: 160px;
+    padding-top:0px;
+    font-size: 10px;
+    padding-bottom: 20px;
+
+}
+section .contaner-section .div3 a{
+    margin-left: 10px;
+    padding-top: 30px;
+}
+section .contaner-section .div4{
+    width: 15%;
+   
+    margin-top: 45px;
+
+}
+section .contaner-section .div4 a{
+    display: block;
+    text-decoration: none;
+    font-size: 10px;
+    
+}
+section .contaner-section .div4 h3{
+    padding-bottom: 30px;
+}
+.cantaner-footer{
+    text-align: center;
+ 
+}
+.cantaner-footer .nav-div{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+   
+    margin:auto;
+    margin-left: 8%;
+    
+}
+.cantaner-footer .nav-div p{
+    font-size: 8px;
+}
+
+.cantaner-footer .nav-div  ul{
+    list-style: none;
+    padding: 20px 0px;
+    display: flex;
+    float: left;
+    margin-top: 80px;
+    
+
+}
+.cantaner-footer .nav-div  ul li a{
+    font-size: 12px;
+    padding-left: 30px; 
+ 
+}
+.cantaner-footer .nav-div  ul li  :first-child{
+    color:rgb(206, 176, 42);
+}
+.cantaner-footer .nav-div .text{
+    margin-top: 100px;
+}
+.cantaner-footer .nav-div .text h3{
+    padding-right:30px ;
+}
+.cantaner-footer .nav-div .text a{
+    font-size: 8px;
+}
+.cantaner-footer  .div-final{
+    display: flex;
+   
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    position: relative;
+    padding-bottom: 100px;
+}
+.cantaner-footer  .div-final .right{
+    position: absolute;
+    right: -10px;
+    bottom: 80px;
+
+}
+.cantaner-footer  .div-final .right i{
+    color:rgb(206, 176, 42);
+    font-size: 15px;
+    position: absolute;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

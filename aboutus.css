@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+    
+}
+a:active{
+    color:rgb(206, 176, 42);
+}
+
+.nav{
+    background-color: rgba(46, 35, 7,0.8); 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 10px 0px;
+
+    }
+
+.nav  ul{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    position: absolute;
+    right: 240px;
+   
+   
+
+}
+.nav li{
+    padding: 20px;
+}
+.nav  a{
+    text-decoration: none;
+    color: white;
+}
+.nav h1{
+    color: white;
+    margin-left: 230px;
+   
+    font-size: 40px;
+}
+.nav h1 i{
+    color:rgb(206, 176, 42);
+    font-size: 15px;
+position: absolute;
+top:9px;
+left: 348px;
+}
+section .contaner{
+  
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    
+
+}
+section .contaner .left{
+   
+    margin-top: 40px;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+}
+section .contaner .left .h3{
+    width: 100%;
+    
+    height: 20%;
+}
+section .contaner .left .nomber{
+   
+    width: 20%;
+    height:80%;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    
+   
+}
+section .contaner .left .nomber div{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(231, 179, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 20px;
+   border-radius: 5px;
+
+}
+
+section .contaner .left .text{
+    width:80% ;
+    font-size: 12px;
+   
+}
+section .contaner .left .text .item{
+   padding: 6px 20px;
+   margin-top: 10px;
+   
+}
+section .contaner .left .text .item :first-child{
+    color:rgb(231, 179, 9);
+}
+
+section .contaner .right{
+    width: 85%;
+  
+    margin-left: 200px;
+    margin-right: 50px;
+}
+section .contaner .right  :nth-child(3){
+    padding-top: 10px ;
+    padding-bottom: 20px;
+    
+}
+section .contaner .right h3{
+    padding: 40px 0;
+}
+section .section2{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+section .section2 .left1{
+    width: 15%;
+  
+
+}
+section .section2 .left1 h3{
+    margin-bottom: 30px;
+}
+section .section2 .left1 p{
+    padding-top: 40px;
+}
+section .section2 .left1 .p-r{
+   display: inline-block;
+  float: right;
+}
+section .section2 .right2{
+    width: 85%;
+    text-align: center;
+    
+   
+  
+
+}
+section .section2 .right2 img{
+    width:80%;
+    float: right;
+    margin-top: 30px;
+    height: 500px;
+    padding-right: 135px;
+    
+}
+section .section2  h3{
+    margin-right: 509px;
+    
+}
+.cantaner-footer{
+    text-align: center;
+ 
+}
+.cantaner-footer .nav-div{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+   
+    margin:auto;
+    margin-left: 8%;
+    
+}
+.cantaner-footer .nav-div p{
+    font-size: 8px;
+}
+
+.cantaner-footer .nav-div  ul{
+    list-style: none;
+    padding: 20px 0px;
+    display: flex;
+    float: left;
+    margin-top: 80px;
+    
+
+}
+.cantaner-footer .nav-div  ul li a{
+    font-size: 12px;
+    padding-left: 30px; 
+ 
+}
+.cantaner-footer .nav-div  ul li a:nth-of-type(2){
+    color:rgb(231, 179, 9) ;
+}
+
+.cantaner-footer .nav-div .text{
+    margin-top: 100px;
+}
+.cantaner-footer .nav-div .text h3{
+    padding-right:30px ;
+}
+.cantaner-footer .nav-div .text a{
+    font-size: 8px;
+}
+.cantaner-footer  .div-final{
+    display: flex;
+   
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    position: relative;
+    padding-bottom: 100px;
+}
+.cantaner-footer  .div-final .right{
+    position: absolute;
+    right: -10px;
+    bottom: 80px;
+
+}
+.cantaner-footer  .div-final .right i{
+    color:rgb(206, 176, 42);
+    font-size: 15px;
+    position: absolute;
+
+}
